@@ -2697,6 +2697,13 @@ input[type="radio"]:focus + label:before {
   display: block;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 .image.left,
 .image.right {
   max-width: 40%;
