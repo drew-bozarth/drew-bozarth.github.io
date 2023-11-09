@@ -2704,6 +2704,12 @@ input[type="radio"]:focus + label:before {
   width: 30%;
 }
 
+.big{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .image.left,
 .image.right {
   max-width: 40%;
