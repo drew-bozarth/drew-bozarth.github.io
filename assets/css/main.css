@@ -4077,6 +4077,24 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 }
 
+.project {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project .image {
+  display: inline-block;
+}
+
+.project .image img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 736px) {
   #main > * {
     padding: 2rem 2rem 0.1rem 2rem;
